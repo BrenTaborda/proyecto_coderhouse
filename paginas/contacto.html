@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+</head>
+<body class="body">
+    <header class="header">
+
+        <img src="../imagenes/logomijal.svg" alt="MijalShapiro" width="100">
+
+        <a href="#abierto" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+
+        <nav class="nav" id="abierto">
+            <ul class="nav__listado">
+                <li class="nav__item">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./clasesdeyoga.html">Clases de yoga</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./meditaciones.html">Meditaciones</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./encuentros.html">Encuentros</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item nav__item--oculto">
+                    <a href="#cerrado">✖️</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main class="main">
+
+        <section class="seccionPrincipalBis">
+            <div class="seccionPrincipalBis__izquierda">
+                <h1 class="seccionPrincipal__titular">¿Querés ponerte en contacto conmigo?</h1>
+                <p class="seccionPrincipal__parrafo">Podés rellenar el formulario que te dejo abajo o contactarme a través de cualquiera de mis redes sociales. Me encanta ver sus mensajes y los respondo a todos, aunque puede que tarde unos días.<span class="seccionPrincipal__parrafo--bold">Namasté.</span></p>    
+            </div>
+            <div class="seccionPrincipalBis__derecha">
+                <form action="formulario" class="formulario">
+                        <label for="Nombre:">Nombre:</label>
+                        <input class="inputsForm" type="text" id="Nombre" name="Nombre" placeholder="*Ingresá tu nombre" required>
+                    
+    
+                        <label for="Apellido:">Apellido:</label>
+                        <input class="inputsForm" type="text" id="Apellido" name="Apellido" placeholder="*Ingresá tu Apellido" required>
+    
+                        <label for="Email:">Email:</label>
+                        <input class="inputsForm" type="email" id="Email" name="Email" placeholder="*Ingresá tu correo" required>
+    
+                        <label class="labelComment" for="comentario">Comentario:</label>
+                        <textarea  class="inputsForm" name="Comentario:" id="Comentario:" cols="27" rows="10"></textarea>
+
+                    <div class="formulario__boton">
+                        <span>ENVIAR</span>
+                    </div>
+                </form>    
+            </div>
+        </section>
+
+        <section class="backToHome__boton">
+            <a href="../index.html" title="volver al inicio">Volver al inicio</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__iconosRedesSociales">
+            <a href="https://www.instagram.com/mijalshapiro/" title="Instagram" target="_blank"><img src="../imagenes/logoinstagram.svg" alt="instagram" width="20"></a>
+            <a href="https://www.facebook.com/mijalshapiro/" title="facebook" target="_blank"><img src="../imagenes/logofacebook.svg" alt="facebook" width="20"></a>
+            <a href="https://open.spotify.com/artist/0xLA1OtEYiULf7h71H4Wly" title="spotify" target="_blank"><img src="../imagenes/logospotify.svg" alt="spotify" width="20"></a>
+            <a href="https://wa.me/5491166649563" title="whatsapp" target="_blank"><img src="../imagenes/logowhatsapp.svg" alt="whatsapp" width="20"></a>    
+        </div>
+              <span>Diseño: Brenda Taborda. Todos los derechos reservados.</span>
+    </footer>
+</body>
+</html>

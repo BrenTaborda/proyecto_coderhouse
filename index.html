@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MijalShapiro</title>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="header">
+
+        <img src="./imagenes/logomijal.svg" alt="MijalShapiro" width="100">
+
+        <a href="#abierto" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+
+        <nav class="nav" id="abierto">
+            <ul class="nav__listado">
+                <li class="nav__item">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/clasesdeyoga.html">Clases de yoga</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/meditaciones.html">Meditaciones</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/encuentros.html">Encuentros</a>
+                </li>
+                <li class="nav__item">
+                    <a href="./paginas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item nav__item--oculto">
+                    <a href="#cerrado">✖️</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main class="main">
+
+        <section>
+            <div>
+                <div class="seccionPrincipal">
+                    <div class="seccionPrincipal__izquierda">
+                        <img class="seccionPrincipal__imagen" src="./imagenes/mainfoto1.jpeg" alt="mijal meditando" width="500">
+                    </div>
+                    <div class="seccionPrincipal__derecha">
+                        <h1 class="seccionPrincipal__titular">Bienvenidos a un lugar de bienestar✨</h1>
+                        <p class="seccionPrincipal__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eaque officia ducimus fuga delectus error asperiores quidem maxime? Quam id fugit dignissimos optio nam veniam eum eligendi nihil sapiente recusandae.</p>
+                        <audio class="seccionPrincipal__musica" controls src="./audios/musicarelajante.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccionRedesSociales">
+            <!-- A estas imágenes no les puse link porque no están publicadas en instagram -->
+            <div class="seccionRedesSociales__fotos">
+                <img src="./imagenes/insta0.png" alt="instagram1" width="190">
+                <img src="./imagenes/insta3.png" alt="instagram4" width="190">
+                <img src="./imagenes/insta1.png" alt="instagram2" width="190">
+                <img class="seccionRedesSociales__fotos--oculto" src="./imagenes/insta4.png" alt="instagram5" width="190">
+                <img class="seccionRedesSociales__fotos--oculto" src="./imagenes/insta2.png" alt="instagram3" width="190">
+            </div>
+            <h2 class="seccionRedesSociales__titular">seguinos en nuestras redes sociales</h2>
+            <!-- Al convertir esto de un a a un button, no me funciona el target_blanck, tampoco me funcionaba el botón y le agregué el onclick, pero no se qué falla-->
+            <button onclick="window.location.href='https://www.instagram.com/mijalshapiro/'" class="seccionRedesSociales__boton" title="Clickeá aquí" target="_blank">Clickeá aquí</button>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__iconosRedesSociales">
+            <a href="https://www.instagram.com/mijalshapiro/" title="Instagram" target="_blank"><img src="./imagenes/logoinstagram.svg" alt="instagram" width="20"></a>
+            <a href="https://www.facebook.com/mijalshapiro/" title="facebook" target="_blank"><img src="./imagenes/logofacebook.svg" alt="facebook" width="20"></a>
+            <a href="https://open.spotify.com/artist/0xLA1OtEYiULf7h71H4Wly" title="spotify" target="_blank"><img src="./imagenes/logospotify.svg" alt="spotify" width="20"></a>
+            <a href="https://wa.me/5491166649563" title="whatsapp" target="_blank"><img src="./imagenes/logowhatsapp.svg" alt="whatsapp" width="20"></a>
+        </div>
+
+        <span>Diseño: Brenda Taborda. Todos los derechos reservados.</span>
+    </footer>
+</body>
+</html>
