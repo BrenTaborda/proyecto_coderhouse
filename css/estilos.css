@@ -58,10 +58,11 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: skyblue;
 }
 
 .nav__item{
-    margin-left: 0.5rem;
+    margin-left: 0.75rem;
 }
 
 .nav__item--oculto{
