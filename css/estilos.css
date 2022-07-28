@@ -137,6 +137,7 @@ width: 100%;
 .seccionPrincipal__parrafo--bold{
     color: #796f6f;
     font-weight: bold;
+    font-weight: 800;
 }
 
 
@@ -277,6 +278,17 @@ width: 100%;
 border: none;
 background-color: #87757E;    
 margin-top: 2rem;
+}
+
+.btn-primary:hover {
+    background-color: rgb(167, 144, 182);
+    border-color: none;
+}
+
+.seccionRedesSociales__boton:hover {
+    background-color: rgb(65, 64, 65);
+    color: #cdcdcd;
+    border-color: none;
 }
 
 
@@ -441,7 +453,6 @@ margin-top: 2rem;
 }
 
 .container {
-
     padding: 1rem;
     width: 100%;
 }
@@ -496,6 +507,7 @@ margin-top: 2rem;
 .list-group-item {
     background-color: rgb(216, 213, 213);
     font-family: 'Open Sans', sans-serif;
+    padding: 1rem;
 }
 
 h3 {
