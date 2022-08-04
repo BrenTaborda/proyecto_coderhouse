@@ -68,7 +68,7 @@
         gap: 2rem;
         height: 100%;
         margin-left: 2rem;    
-        color:#424242
+        color:$colorOscuro
     }
     
     .nav__item{
@@ -82,7 +82,7 @@
 
     .seccionPrincipal {
         width: 100%;
-        font-family: 'Gulzar', serif;
+        font-family: $tipografia-titulos;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -105,10 +105,10 @@
     }
     
     .seccionPrincipal__parrafo {
-        color: #343434;
+        color: $colorOscuro;
         line-height: 18px;
         font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografia-textos;
     }
     
     .seccionPrincipal__musica {
@@ -150,9 +150,9 @@
     
     .seccionRedesSociales__boton {
         font-size: 14px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografia-textos;
         background-color: #cdcdcd;
-        color: #2f2f2f;
+        color: $colorOscuro;
         width: 130px;
         padding: 0.5rem 1rem;
         text-align: center;
@@ -165,7 +165,7 @@
 
     .seccionPrincipalBis {
         width: 100%;
-        font-family: 'Gulzar', serif;
+        font-family: $tipografia-titulos;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -188,7 +188,7 @@
         margin-top: 3rem;
         color: #ffffff;
         line-height: 18px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografia-textos;
         font-size: 14px;
     }
 
@@ -197,7 +197,7 @@
         background-color: rgb(255, 255, 255);
         padding: 3rem;
         color: #87757E;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $tipografia-textos;
         line-height: 2;
         margin: 0 3rem 3rem;
         display: flex;
@@ -266,10 +266,10 @@
         width: 100%;
         z-index: 1000;
     
-        font-family: 'Gulzar', serif;
+        font-family: $tipografia-titulos;
         font-size: 10px;
         line-height: 19px;
-        color: #343434;
+        color: $colorOscuro;
         text-decoration: none;
     
         display: flex;

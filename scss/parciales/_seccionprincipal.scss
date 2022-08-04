@@ -1,6 +1,6 @@
 .seccionPrincipal {
     width: 100%;
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,18 +29,18 @@ width: 100%;
     }
 
 .seccionPrincipal__titular {
-    color: #87757E;
+    color: $colorDestacado;
     font-size: 30px;
     line-height: 40px;
     margin: 3rem;   
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
 }
 
 .seccionPrincipal__parrafo {
-    color: #343434;
+    color: $colorOscuro;
     line-height: 21px;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografia-textos;
     margin: 3rem;   
 }
 
@@ -55,17 +55,17 @@ width: 100%;
 }
 
 .seccionParrafo {
-    background-color: #87757E;
+    background-color: $colorDestacado;
     padding: 5rem;
     margin-bottom: 5rem;
     color: #ffffff;
     line-height: 21px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografia-textos;
     font-size: 16px;
 }
 
 .seccionParrafo__titulos {
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
     line-height: 19px;
     color: #ffffff;
     text-decoration: none;
@@ -83,7 +83,7 @@ width: 100%;
 .seccionParrafo__titulos--encuentros {
     text-align: center;
     font-size: 24px;
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
     margin-bottom: 0;
     margin-top: 0.5rem;
     color: white;
@@ -91,7 +91,7 @@ width: 100%;
 
 .seccionPrincipalBis {
     width: 100%;
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

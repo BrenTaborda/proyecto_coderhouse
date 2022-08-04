@@ -3,7 +3,7 @@
     background-color: rgb(255, 255, 255);
     padding: 3rem;
     color: #87757E;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografia-textos;
     line-height: 2;
     margin-bottom: 1rem;
     display: flex;
@@ -22,7 +22,7 @@
 
 .btn-primary {
 border: none;
-background-color: #87757E;    
+background-color: $colorDestacado;    
 margin-top: 2rem;
 }
 
@@ -40,9 +40,9 @@ margin-top: 2rem;
 
 .backToHome__boton {
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografia-textos;
     background-color: #cdcdcd;
-    color: #2f2f2f;
+    color: $colorOscuro;
     width: 116px;
     padding: 0.5rem 1rem;
     text-align: center;

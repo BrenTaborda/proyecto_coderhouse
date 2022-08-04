@@ -1,5 +1,5 @@
 .seccionRedesSociales {
-    background-color: #87757E;
+    background-color: $colorDestacado;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 
 .seccionRedesSociales__titular {
     color: #cdcdcd;
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
     font-size: 20px;
     text-align: center;
     padding: 1rem;
@@ -29,9 +29,9 @@
 
 .seccionRedesSociales__boton {
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografia-textos;
     background-color: #cdcdcd;
-    color: #2f2f2f;
+    color: $colorOscuro;
     width: 130px;
     padding: 0.5rem 1rem;
     text-align: center;

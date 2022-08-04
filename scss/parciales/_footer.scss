@@ -6,10 +6,10 @@
     width: 100%;
     z-index: 1000;
 
-    font-family: 'Gulzar', serif;
+    font-family: $tipografia-titulos;
     font-size: 12px;
     line-height: 19px;
-    color: #343434;
+    color: $colorOscuro;
     text-decoration: none;
 
     display: flex;
