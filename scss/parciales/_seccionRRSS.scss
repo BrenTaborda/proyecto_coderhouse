@@ -6,9 +6,8 @@
     justify-content: center;
     margin-bottom: 5rem;
     margin-top: 3rem;
-}
 
-.seccionRedesSociales__fotos {
+    &__fotos {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap; 
@@ -18,16 +17,16 @@
         row-gap: 1rem;
     }
 
-.seccionRedesSociales__titular {
+    &__titular {
     color: #cdcdcd;
     font-family: $tipografia-titulos;
     font-size: 20px;
     text-align: center;
     padding: 1rem;
     padding-top: 2rem;
-}
+    }
 
-.seccionRedesSociales__boton {
+    &__boton {
     font-size: 14px;
     font-family: $tipografia-textos;
     background-color: #cdcdcd;
@@ -39,4 +38,5 @@
     transform: translateX(-50%);
     border: none;
     border-radius: 5px;
+    }
 }

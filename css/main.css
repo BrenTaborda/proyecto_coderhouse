@@ -102,12 +102,6 @@ main {
   width: 100%;
 }
 
-.secciones__imagen {
-  border: 10px solid;
-  border-color: #eeeeee;
-  width: 50%;
-}
-
 .seccionPrincipal__titular {
   color: #87757E;
   font-size: 30px;
@@ -132,6 +126,12 @@ main {
   color: #796f6f;
   font-weight: bold;
   font-weight: 800;
+}
+
+.secciones__imagen {
+  border: 10px solid;
+  border-color: #eeeeee;
+  width: 50%;
 }
 
 .seccionParrafo {
@@ -314,6 +314,10 @@ main {
 
 .inputsForm {
   width: 100%;
+}
+
+.inputsForm:focus {
+  outline: 1px solid #87757E;
 }
 
 .seccionAudios {
@@ -544,9 +548,6 @@ h3 {
   .header__icono {
     display: block;
   }
-  .nav:target {
-    display: block;
-  }
   .nav {
     display: none;
     background-color: #d4d4d4;
@@ -557,6 +558,9 @@ h3 {
     z-index: 1000000;
     width: 70%;
     height: 100vh;
+  }
+  .nav:target {
+    display: block;
   }
   .nav__listado {
     flex-direction: column;

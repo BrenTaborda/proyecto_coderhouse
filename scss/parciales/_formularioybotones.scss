@@ -21,15 +21,17 @@
 } */
 
 .btn-primary {
-border: none;
-background-color: $colorDestacado;    
-margin-top: 2rem;
+    border: none;
+    background-color: $colorDestacado;    
+    margin-top: 2rem;
+
+    &:hover {
+        background-color: rgb(167, 144, 182);
+        border-color: none;
+    }
+
 }
 
-.btn-primary:hover {
-    background-color: rgb(167, 144, 182);
-    border-color: none;
-}
 
 .seccionRedesSociales__boton:hover {
     background-color: rgb(65, 64, 65);
@@ -53,4 +55,8 @@ margin-top: 2rem;
 
 .inputsForm {
     width: 100%;
+
+    &:focus {
+        outline: 1px solid $colorDestacado;
+        }
 }
