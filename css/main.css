@@ -288,9 +288,32 @@ main {
   margin-top: 2rem;
 }
 
+.btn-primary:visited {
+  background-color: #919191;
+  border-color: none;
+}
+
 .btn-primary:hover {
   background-color: #a790b6;
   border-color: none;
+}
+
+.btn-primary:focus {
+  background-color: #5c5363;
+  border-color: none;
+  box-shadow: 0 0 0 0.25rem rgba(189, 189, 189, 0.5);
+}
+
+.btn-primary:focus-visible {
+  background-color: #a790b6;
+  border-color: none;
+  box-shadow: 0 0 0 0.25rem rgba(189, 189, 189, 0.5);
+}
+
+.btn-primary:active {
+  background-color: #343434;
+  border-color: none;
+  box-shadow: 0 0 0 0.25rem rgba(189, 189, 189, 0.5);
 }
 
 .seccionRedesSociales__boton:hover {
