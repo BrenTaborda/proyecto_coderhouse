@@ -1,0 +1,45 @@
+/* PROBANDO GRILLA ENCUENTROS */
+.gridEncuentros {
+    margin: 5rem;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+
+    grid-template-areas: 
+    "img1 img2 img2" /* Primera fila de la cuadricula */
+    "img3 img3 img4" /* Seguna fila de la cuadricula */;
+    /* opcionales*/
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+}
+
+.gridEncuentros__img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.gridEncuentros__hijo {
+overflow: hidden;
+}
+
+.gridEncuentros__hijo--1 {
+grid-area: img1;
+}
+
+.gridEncuentros__hijo--2 {
+grid-area: img2;
+}
+
+.gridEncuentros__hijo--3 {
+grid-area: img3;
+}
+
+.gridEncuentros__hijo--4 {
+grid-area: img4;
+}

@@ -1,4 +1,10 @@
-.leo {
-    color:navy;
-    background-color: red;
-}
+@import "parciales/base";
+@import "parciales/header";
+@import "parciales/seccionprincipal";
+@import "parciales/seccionRRSS";
+@import "parciales/footer";
+@import 'parciales/formularioybotones';
+@import "parciales/seccionAudios";
+@import "parciales/seccionEncuentrosGrilla";
+@import "parciales/bootstrap";
+@import "parciales/mediasquery"

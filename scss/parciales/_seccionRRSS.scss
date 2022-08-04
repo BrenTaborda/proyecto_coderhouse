@@ -1,0 +1,42 @@
+.seccionRedesSociales {
+    background-color: #87757E;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.seccionRedesSociales__fotos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-items: flex-start;
+        align-content: flex-end;
+        row-gap: 1rem;
+    }
+
+.seccionRedesSociales__titular {
+    color: #cdcdcd;
+    font-family: 'Gulzar', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.seccionRedesSociales__boton {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #cdcdcd;
+    color: #2f2f2f;
+    width: 130px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 5px;
+}

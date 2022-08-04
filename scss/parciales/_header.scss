@@ -1,0 +1,52 @@
+.header {
+    background-color: rgb(238, 236, 219);
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    font-family: 'Gulzar', serif;
+    line-height: 19px;
+    color: #343434;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header__icono {
+    font-size: 32px;
+    color: #343434;
+    text-decoration: none;
+    display: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__listado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__item{
+    margin-left: 0.75rem;
+}
+
+.nav__item--oculto{
+display: none;
+}
+
+
+/* .listaNav li { */
+    /* todos los li adentro de listaNav */
+    /* margin-left: 0.5rem; */
+    /*  */
+/* } */

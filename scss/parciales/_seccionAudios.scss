@@ -1,0 +1,68 @@
+.seccionAudios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridAudios {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+    "img1 img2 img3 img4"
+    "txt1 txt1 img5 img6";
+    margin: 5rem;
+    width: 60%;
+}
+
+.gridAudios__hijo {
+    place-content: center;
+    overflow: hidden;
+}
+
+.gridAudios__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gridAudios__hijo--1 {
+    grid-area: img1;
+}
+
+.gridAudios__hijo--2 {
+    grid-area: img2;
+}
+
+.gridAudios__hijo--3 {
+    grid-area: img3;
+}
+
+.gridAudios__hijo--4 {
+    grid-area: img4;
+}
+
+.gridAudios__hijo--5 {
+    grid-area: txt1;
+    font-family: 'Gulzar', serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;    
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #999396;
+}
+
+.gridAudios__hijo--6 {
+    grid-area: img5;
+}
+
+.gridAudios__hijo--7 {
+    grid-area: img6;
+}

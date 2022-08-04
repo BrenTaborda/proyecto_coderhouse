@@ -1,0 +1,108 @@
+.seccionPrincipal {
+    width: 100%;
+    font-family: 'Gulzar', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.seccionPrincipal__izquierda {
+    width: 50%;
+}
+
+.seccionPrincipal__derecha {
+    width: 50%;
+}
+
+.seccionPrincipal__imagen {
+border: 10px solid;
+border-color: rgb(238, 238, 238);
+width: 100%;
+}
+
+.secciones__imagen {
+    border: 10px solid;
+    border-color: rgb(238, 238, 238);
+    width: 50%;
+    }
+
+.seccionPrincipal__titular {
+    color: #87757E;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 3rem;   
+    font-family: 'Gulzar', serif;
+}
+
+.seccionPrincipal__parrafo {
+    color: #343434;
+    line-height: 21px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3rem;   
+}
+
+.seccionPrincipal__musica {
+    margin-left: 3rem;
+}
+
+.seccionPrincipal__parrafo--bold{
+    color: #796f6f;
+    font-weight: bold;
+    font-weight: 800;
+}
+
+.seccionParrafo {
+    background-color: #87757E;
+    padding: 5rem;
+    margin-bottom: 5rem;
+    color: #ffffff;
+    line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.seccionParrafo__titulos {
+    font-family: 'Gulzar', serif;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.seccionParrafo__encuentros {
+    background-color: #999396;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.seccionParrafo__titulos--encuentros {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gulzar', serif;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.seccionPrincipalBis {
+    width: 100%;
+    font-family: 'Gulzar', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.seccionPrincipalBis__izquierda {
+    width: 50%;
+}
+
+.seccionPrincipalBis__derecha {
+    width: 50%;
+}
