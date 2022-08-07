@@ -9,6 +9,9 @@
 /* Tablet */
 @media screen and (max-width:1023px) {
 
+    .seccionRedesSociales__fotos--ancho{
+        width: 190px;}
+
     .seccionRedesSociales__fotos--oculto {
         display: none
     }
@@ -34,6 +37,89 @@
 
 }
 
+@media screen and (max-width:768px){
+    .seccionPacks {
+        // background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 5rem 3rem;
+    
+        &-conecta{
+            margin: 1rem;
+        }
+    
+        &__titular {
+            font-size: 22px;
+        }
+    
+        &__bajada {
+            font-size: 16px;
+        }
+    }
+    .seccionPrincipal {
+        width: $ancho;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem;
+
+        &__izquierda {
+            width: $ancho;
+        }
+    
+        &__derecha {
+            width: $ancho;
+        }
+    }
+
+    .seccionPrincipalBis {
+        width: $ancho;
+        font-family: $tipografia-titulos;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem;
+
+        &__izquierda {
+            width: $ancho;
+        }
+        
+       &__derecha {
+            width: $ancho;
+        }
+    
+    }
+    .formulario {
+
+        margin: 0 3rem 3rem;}
+    
+
+    .seccionRedesSociales{
+        padding: 2rem 2rem;
+
+        &__fotos {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            align-content: center;
+            gap: 0.5rem;
+            padding-right: 0rem;
+            }
+
+        &__fotos--ancho{
+            width: 170px;
+        }
+    }
+    .seccionParrafo__encuentros {
+        margin-top: 1.5rem;
+    }
+
+}
+
 
 /* Movil */
 @media screen and (max-width: 599px) {
@@ -47,18 +133,19 @@
     }
 
     .nav {
-        display: none;
+        display: block;
         background-color: rgb(212, 212, 212);
-        opacity: 100%;
         position: fixed;
         top: 0;
-        left: 0;
+        left: -100%;
         z-index: 1000000;
         width: 70%;
         height: 100vh;
+        transition: left 1s;
 
         &:target {
             display: block;
+            left: 0;
         }
 
         &__listado {
@@ -105,19 +192,21 @@
             color: #87757E;
             font-size: 24px;
             line-height: 30px;
+            text-align: center;
         }
         
         &__parrafo {
             color: $colorOscuro;
-            line-height: 18px;
-            font-size: 14px;
+            line-height: 20px;
+            font-size: 16px;
             font-family: $tipografia-textos;
+            text-align: center;
         }
         
-        &__musica {
-            display: none;
-            margin-left: 1rem;
-        }
+        // &__musica {
+        //     display: none;
+        //     margin-left: 1rem;
+        // }
     }
 
 
@@ -143,6 +232,10 @@
 
         &__fotos--oculto {
             display: none
+        }
+
+        &__fotos--ancho{
+            width: 190px;
         }
     
         &__titular {
@@ -196,9 +289,10 @@
         margin-bottom: 3rem;
         margin-top: 3rem;
         color: #ffffff;
-        line-height: 18px;
+        line-height: 20px;
         font-family: $tipografia-textos;
-        font-size: 14px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .formulario {
