@@ -20,3 +20,17 @@ $packcito: (
         height: auto;
     }
 }
+
+@mixin textoCardsEncuentros {
+    color: $colorOscuro;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: $tipografia-textos;
+    text-align: center;
+}
+
+@mixin sizes($widht, $height) {
+    height: $height;
+    width: $widht;
+}
+

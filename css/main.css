@@ -132,7 +132,7 @@ main {
   width: 100%;
 }
 
-.seccionPrincipal__titular {
+.seccionPrincipal__titular, .seccionPrincipal__titular--centrado {
   color: #87757E;
   font-size: 30px;
   line-height: 40px;
@@ -397,6 +397,51 @@ main {
   outline: 1px solid #87757E;
 }
 
+.seccionPrincipal__titular--centrado {
+  text-align: center;
+  margin: 0;
+}
+
+.SeccionTestimonios {
+  width: 100%;
+  padding: 2rem 5rem;
+}
+
+.SeccionTestimonios span {
+  color: #87757E;
+  font-family: "Gulzar", serif;
+}
+
+.SeccionTestimonios h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.SeccionTestimonios__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.SeccionTestimonios__container--box, .SeccionTestimonios__container--boxLeft {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  color: #343434;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  opacity: 95%;
+  width: 70%;
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 25px 22px 0px 25px;
+  gap: 3rem;
+}
+
+.SeccionTestimonios__container--boxLeft {
+  margin-left: auto;
+  border-radius: 25px 22px 25px 0px;
+  text-align: right;
+}
+
 .seccionAudios {
   display: flex;
   flex-direction: column;
@@ -599,6 +644,7 @@ h3 {
 /* Tablet */
 @media screen and (max-width: 1023px) {
   .seccionRedesSociales__fotos--ancho {
+    height: 190px;
     width: 190px;
   }
   .seccionRedesSociales__fotos--oculto {
@@ -617,6 +663,9 @@ h3 {
   .gridAudios__hijo--5 {
     font-size: 22px;
     padding: 1rem;
+  }
+  .SeccionTestimonios__container--box, .SeccionTestimonios__container--boxLeft {
+    width: 90%;
   }
 }
 
@@ -681,6 +730,7 @@ h3 {
     padding-right: 0rem;
   }
   .seccionRedesSociales__fotos--ancho {
+    height: 170px;
     width: 170px;
   }
   .seccionParrafo__encuentros {
@@ -742,7 +792,7 @@ h3 {
   .seccionPrincipal__derecha {
     width: 100%;
   }
-  .seccionPrincipal__titular {
+  .seccionPrincipal__titular, .seccionPrincipal__titular--centrado {
     color: #87757E;
     font-size: 24px;
     line-height: 30px;
@@ -777,6 +827,7 @@ h3 {
     display: none;
   }
   .seccionRedesSociales__fotos--ancho {
+    height: 190px;
     width: 190px;
   }
   .seccionRedesSociales__titular {
@@ -923,5 +974,8 @@ h3 {
     object-position: center;
     height: auto;
     width: 100%;
+  }
+  .SeccionTestimonios {
+    padding: 2rem 3rem;
   }
 }

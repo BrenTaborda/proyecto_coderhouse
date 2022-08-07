@@ -10,7 +10,8 @@
 @media screen and (max-width:1023px) {
 
     .seccionRedesSociales__fotos--ancho{
-        width: 190px;}
+        @include sizes (190px, 190px)
+    }
 
     .seccionRedesSociales__fotos--oculto {
         display: none
@@ -33,6 +34,10 @@
             font-size: 22px;
             padding: 1rem;
         }
+    }
+
+    .SeccionTestimonios__container--box{
+        width: $ancho*0.9;
     }
 
 }
@@ -111,7 +116,7 @@
             }
 
         &__fotos--ancho{
-            width: 170px;
+            @include sizes (170px, 170px);
         }
     }
     .seccionParrafo__encuentros {
@@ -235,7 +240,7 @@
         }
 
         &__fotos--ancho{
-            width: 190px;
+            @include sizes (190px, 190px)
         }
     
         &__titular {
@@ -422,6 +427,9 @@
         height: auto;
         width: $ancho;
     }
+
+    .SeccionTestimonios {
+        padding: 2rem 3rem;}
     
 
 }
