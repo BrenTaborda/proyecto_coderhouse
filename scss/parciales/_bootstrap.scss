@@ -1,18 +1,18 @@
 
 
 .columnasBootstrap {
-    background-color: rgb(187, 209, 221);
-    width: 100%;
+    background-color: map-get($packcito, practica);
+    width: $ancho;
     margin: 0%;
 }
 
 .container {
     padding: 1rem;
-    width: 100%;
+    width: $ancho;
 }
 
 .row {
-    width: 100%;
+    width: $ancho;
 }
 
 .col-12 {
@@ -25,7 +25,7 @@
 .textobootstrap{
     font-size: 16px;
     font-family: $tipografia-textos;
-    color: $colorOscuro;
+    color: white;
     text-align: center;
     padding: 1rem 2rem 1rem 2rem;
 }
@@ -38,11 +38,11 @@
     object-fit: scale-down;
     object-position:bottom;
     height: 60vh;
-    width: 100%;
+    width: $ancho;
 }
 
 .cardsBootstrap {
-    width: 100%;
+    width: $ancho;
     background-color: $colorDestacado;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -67,7 +67,7 @@
 }
 
 .card {
-    transition: scale 1s;
+    transition: all 1s;
 
     &:hover {
         transform: scale(1.09);

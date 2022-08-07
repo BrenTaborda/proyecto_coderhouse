@@ -1,5 +1,5 @@
 .seccionPrincipal {
-    width: 100%;
+    width: $ancho;
     font-family: $tipografia-titulos;
     display: flex;
     flex-direction: row;
@@ -8,11 +8,11 @@
     padding: 2rem;
 
     &__izquierda {
-        width: 50%;
+        width: $ancho/2;
     }
     
     &__derecha {
-        width: 50%;
+        width: $ancho/2;
     }
     
     &__imagen {
@@ -37,9 +37,9 @@
         margin: 3rem;   
     }
     
-    &__musica {
-        margin-left: 3rem;
-    }
+    // &__musica {
+    //     margin-left: 3rem;
+    // }
     
     &__parrafo--bold{
         color: #796f6f;
@@ -52,7 +52,7 @@
 .secciones__imagen {
     border: 10px solid;
     border-color: rgb(238, 238, 238);
-    width: 50%;
+    width: $ancho/2;
     }
 
 
@@ -94,7 +94,7 @@
 
 
 .seccionPrincipalBis {
-    width: 100%;
+    width: $ancho;
     font-family: $tipografia-titulos;
     display: flex;
     flex-direction: row;
@@ -103,10 +103,32 @@
     padding: 2rem;
 
     &__izquierda {
-        width: 50%;
+        width: $ancho/2;
     }
     
     &__derecha {
-        width: 50%;
+        width: $ancho/2;
     }
 }
+
+.seccionPacks {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem 3rem;
+
+    &-conecta{
+        margin: 1rem;
+    }
+
+    &__titular {
+        font-size: 26px;
+    }
+
+    &__bajada {
+        font-size: 20px;
+    }
+}
+

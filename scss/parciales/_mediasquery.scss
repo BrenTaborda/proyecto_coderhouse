@@ -85,7 +85,7 @@
  
 
     .seccionPrincipal {
-        width: 100%;
+        width: $ancho;
         font-family: $tipografia-titulos;
         display: flex;
         flex-direction: column;
@@ -94,11 +94,11 @@
         padding: 0rem;
 
         &__izquierda {
-            width: 100%;
+            width: $ancho;
         }
     
         &__derecha {
-            width: 100%;
+            width: $ancho;
         }
     
         &__titular {
@@ -172,7 +172,7 @@
 
 
     .seccionPrincipalBis {
-        width: 100%;
+        width: $ancho;
         font-family: $tipografia-titulos;
         display: flex;
         flex-direction: column;
@@ -181,11 +181,11 @@
         padding: 0rem;
 
         &__izquierda {
-            width: 100%;
+            width: $ancho;
         }
         
        &__derecha {
-            width: 100%;
+            width: $ancho;
         }
     
     }
@@ -269,6 +269,27 @@
         "img4";
     }
 
+    .seccionPacks {
+        // background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 5rem 0rem;
+    
+        &-conecta{
+            margin: 1rem;
+        }
+    
+        &__titular {
+            font-size: 26px;
+        }
+    
+        &__bajada {
+            font-size: 20px;
+        }
+    }
+
     .footer {
         background-color: rgb(238, 236, 219);
         opacity: 80%;
@@ -305,7 +326,7 @@
         object-fit: scale-down;
         object-position:center;
         height: auto;
-        width: 100%;
+        width: $ancho;
     }
     
 
