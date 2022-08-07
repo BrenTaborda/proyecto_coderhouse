@@ -97,6 +97,7 @@
 .SeccionTestimonios{
     width: $ancho;
     padding: 2rem 5rem;
+    margin: 0;
 
     & span{
         color: $colorDestacado;
@@ -111,6 +112,7 @@
     &__container {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     &__container--box {
