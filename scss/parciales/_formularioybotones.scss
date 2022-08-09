@@ -53,9 +53,9 @@
     border-color: none;
 }
 
-.backToHome__enlace {
+// .backToHome__enlace {
 
-}
+// }
 .backToHome__boton {
     font-size: 12px;
     font-family: $tipografia-textos;
@@ -92,8 +92,6 @@
     @extend.seccionPrincipal__titular;
     text-align: center;
     margin: 0;
-<<<<<<< HEAD
-=======
 }
 
 .SeccionTestimonios{
@@ -138,5 +136,4 @@
         border-radius: 25px 22px 25px 0px;
         text-align: right;
         }
->>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
 }

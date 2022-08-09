@@ -402,8 +402,6 @@ main {
   margin: 0;
 }
 
-<<<<<<< HEAD
-=======
 .SeccionTestimonios {
   width: 100%;
   padding: 2rem 5rem;
@@ -446,7 +444,6 @@ main {
   text-align: right;
 }
 
->>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
 .seccionAudios {
   display: flex;
   flex-direction: column;
@@ -639,7 +636,6 @@ h3 {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
 .SeccionTestimonios {
   width: 100%;
   padding: 2rem 4rem;
@@ -682,8 +678,6 @@ h3 {
   text-align: right;
 }
 
-=======
->>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
 /* probando1024 */
 @media screen and (max-width: 1224px) {
   .seccionRedesSociales__fotos--oculto1 {
@@ -791,10 +785,7 @@ h3 {
 /* Movil */
 @media screen and (max-width: 599px) {
   .header {
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
     opacity: 85%;
   }
   .header__icono {
@@ -1032,11 +1023,8 @@ h3 {
   .SeccionTestimonios {
     padding: 2rem 3rem;
   }
-<<<<<<< HEAD
   .SeccionTestimonios h3 {
     font-size: 20px;
     margin-bottom: 1rem;
   }
-=======
->>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
 }
