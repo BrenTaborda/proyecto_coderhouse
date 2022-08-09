@@ -1,0 +1,36 @@
+$colorDestacado:#87757E;
+$colorOscuro: #343434;
+$tipografia-textos: 'Open Sans', sans-serif;
+$tipografia-titulos:'Gulzar', serif;
+$ancho: 100%;
+$packcito: (
+    practica:#a3aead, 
+    conecta: #c5a780, 
+    explora: #d2a3a7
+    );
+
+@each $clave, $valor in $packcito {
+    .seccionPacks-#{$clave}{
+        background-color: $valor;
+        color: white;
+        font-family: $tipografia-textos;
+        text-align: center;
+        padding: 1rem;
+        width: 300px;
+        height: auto;
+    }
+}
+
+@mixin textoCardsEncuentros {
+    color: $colorOscuro;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: $tipografia-textos;
+    text-align: center;
+}
+
+@mixin sizes($widht, $height) {
+    height: $height;
+    width: $widht;
+}
+

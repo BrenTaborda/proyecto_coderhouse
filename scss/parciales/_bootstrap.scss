@@ -1,0 +1,86 @@
+
+
+.columnasBootstrap {
+    background-color: map-get($packcito, practica);
+    width: $ancho;
+    margin: 0%;
+}
+
+.container {
+    padding: 1rem;
+    width: $ancho;
+}
+
+.row {
+    width: $ancho;
+}
+
+.col-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textobootstrap{
+    font-size: 16px;
+    font-family: $tipografia-textos;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.carrouselBootstrap {
+    margin-bottom: 2rem;
+}
+
+.carousel-item {
+    object-fit: scale-down;
+    object-position:bottom;
+    height: 60vh;
+    width: $ancho;
+}
+
+.cardsBootstrap {
+    width: $ancho;
+    background-color: $colorDestacado;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
+
+    &__elementos {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+
+.card-text {
+    // color: $colorOscuro;
+    // line-height: 18px;
+    // font-size: 14px;
+    // font-family: $tipografia-textos;
+    // text-align: center;
+    @include textoCardsEncuentros;
+}
+
+.card {
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.09);
+    }
+}
+
+.list-group-item {
+    background-color: rgb(216, 213, 213);
+    font-family: $tipografia-textos;
+    padding: 1rem;
+}
+
+h3 {
+    margin-bottom: 0;
+}

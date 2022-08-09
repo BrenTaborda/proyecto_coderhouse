@@ -1,0 +1,134 @@
+.seccionPrincipal {
+    width: $ancho;
+    font-family: $tipografia-titulos;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    &__izquierda {
+        width: $ancho/2;
+    }
+    
+    &__derecha {
+        width: $ancho/2;
+    }
+    
+    &__imagen {
+    border: 10px solid;
+    border-color: rgb(238, 238, 238);
+    width: 100%;
+    }
+
+    &__titular {
+        color: $colorDestacado;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 3rem;   
+        font-family: $tipografia-titulos;
+    }
+    
+    &__parrafo {
+        color: $colorOscuro;
+        line-height: 21px;
+        font-size: 16px;
+        font-family: $tipografia-textos;
+        margin: 3rem;   
+    }
+    
+    // &__musica {
+    //     margin-left: 3rem;
+    // }
+    
+    &__parrafo--bold{
+        color: #796f6f;
+        font-weight: bold;
+        font-weight: 800;
+    }
+}
+
+
+.secciones__imagen {
+    border: 10px solid;
+    border-color: rgb(238, 238, 238);
+    width: $ancho/2;
+    }
+
+
+
+.seccionParrafo {
+    background-color: $colorDestacado;
+    padding: 5rem;
+    margin-bottom: 5rem;
+    color: #ffffff;
+    line-height: 21px;
+    font-family: $tipografia-textos;
+    font-size: 16px;
+
+    &__titulos {
+        font-family: $tipografia-titulos;
+        line-height: 19px;
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    &__encuentros {
+        background-color: #999396;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        color: #ffffff;
+    }
+    
+    &__titulos--encuentros {
+        text-align: center;
+        font-size: 24px;
+        font-family: $tipografia-titulos;
+        margin-bottom: 0;
+        margin-top: 0.5rem;
+        color: white;
+    }
+}
+
+
+.seccionPrincipalBis {
+    width: $ancho;
+    font-family: $tipografia-titulos;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    &__izquierda {
+        width: $ancho/2;
+    }
+    
+    &__derecha {
+        width: $ancho/2;
+    }
+}
+
+.seccionPacks {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem 3rem;
+
+    &-conecta{
+        margin: 1rem;
+    }
+
+    &__titular {
+        font-size: 26px;
+    }
+
+    &__bajada {
+        font-size: 20px;
+    }
+}
+

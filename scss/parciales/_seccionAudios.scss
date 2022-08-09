@@ -1,0 +1,68 @@
+.seccionAudios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridAudios {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+    "img1 img2 img3 img4"
+    "txt1 txt1 img5 img6";
+    margin: 5rem;
+    width: 60%;
+
+    &__hijo {
+        place-content: center;
+        overflow: hidden;
+    }
+    
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    &__hijo--1 {
+        grid-area: img1;
+    }
+    
+    &__hijo--2 {
+        grid-area: img2;
+    }
+    
+    &__hijo--3 {
+        grid-area: img3;
+    }
+    
+    &__hijo--4 {
+        grid-area: img4;
+    }
+    
+    &__hijo--5 {
+        grid-area: txt1;
+        font-family: $tipografia-titulos;
+        font-size: 25px;
+        line-height: 30px;
+        color: #ffffff;
+        text-align: center;
+        display: flex;    
+        align-items: center;
+        padding: 0.5rem;
+        background-color: $colorDestacado;
+    }
+    
+    &__hijo--6 {
+        grid-area: img5;
+    }
+    
+    &__hijo--7 {
+        grid-area: img6;
+    }
+}

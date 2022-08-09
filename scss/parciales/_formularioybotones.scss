@@ -1,0 +1,95 @@
+.formulario {
+    border: #87757E 3px solid;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    color: #87757E;
+    font-family: $tipografia-textos;
+    line-height: 2;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    border: none;
+    background-color: $colorDestacado;    
+    margin-top: 2rem;
+
+    &:visited {
+        background-color: rgb(145, 145, 145);
+        border-color: none;
+        
+    }
+
+    &:hover {
+        background-color: map-get($packcito, practica);
+        border-color: none;
+    }
+
+    &:focus {
+        background-color: rgb(92, 83, 99);
+        border-color: map-get($packcito, explora) solid 3px;
+        box-shadow: 0 0 0 0.25rem rgba(189, 189, 189, 0.5);
+    }
+
+    &:focus-visible {
+        background-color: rgb(167, 144, 182);
+        border-color: none;
+        box-shadow: 0 0 0 0.25rem rgba(189, 189, 189, 0.5);
+    }
+
+    &:active {
+        background-color: $colorOscuro;
+        border-color: map-get($packcito, explora) solid 3px;
+        box-shadow: 0 0 0 0.25rem rgba(189, 189, 189, 0.5);
+    }
+
+}
+
+
+.seccionRedesSociales__boton:hover {
+    background-color: rgb(65, 64, 65);
+    color: #cdcdcd;
+    border-color: none;
+}
+
+.backToHome__enlace {
+
+}
+.backToHome__boton {
+    font-size: 12px;
+    font-family: $tipografia-textos;
+    background-color: #cdcdcd;
+    color: $colorOscuro;
+    width: 116px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    transition: all 0.5s;
+
+    & a:hover{
+        color: white;
+    }
+
+    &:hover {
+        color: white;
+        background-color: map-get($packcito, practica);
+        border-color: none;
+    }
+}
+
+.inputsForm {
+    width: 100%;
+
+    &:focus {
+        outline: 1px solid $colorDestacado;
+        }
+}
+
+.seccionPrincipal__titular--centrado {
+    @extend.seccionPrincipal__titular;
+    text-align: center;
+    margin: 0;
+}

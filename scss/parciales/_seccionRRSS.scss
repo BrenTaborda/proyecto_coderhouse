@@ -1,0 +1,42 @@
+.seccionRedesSociales {
+    background-color: $colorDestacado;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+
+    &__fotos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-items: flex-start;
+        align-content: flex-end;
+        row-gap: 1rem;
+    }
+
+    &__titular {
+    color: #cdcdcd;
+    font-family: $tipografia-titulos;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    }
+
+    &__boton {
+    font-size: 14px;
+    font-family: $tipografia-textos;
+    background-color: #cdcdcd;
+    color: $colorOscuro;
+    width: 130px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 5px;
+    }
+}
