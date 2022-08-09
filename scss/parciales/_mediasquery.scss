@@ -130,7 +130,10 @@
 @media screen and (max-width: 599px) {
 
     .header{
+<<<<<<< HEAD
         width: $ancho;
+=======
+>>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
         opacity: 85%;
 
         &__icono {
@@ -430,6 +433,7 @@
     }
 
     .SeccionTestimonios {
+<<<<<<< HEAD
         padding: 2rem 3rem;
     
         & h3{
@@ -437,6 +441,9 @@
             margin-bottom: 1rem;
         }
     }
+=======
+        padding: 2rem 3rem;}
+>>>>>>> 3e405754474aa9c672fc2288c72d4f234b436b6a
     
 
 }
