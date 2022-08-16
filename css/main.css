@@ -75,7 +75,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 3rem;
 }
 
 .header__icono {
@@ -93,21 +93,19 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .nav__item {
   margin-left: 0.75rem;
+  padding: 0;
 }
 
 .nav__item--oculto {
   display: none;
 }
 
-/* .listaNav li { */
-/* todos los li adentro de listaNav */
-/* margin-left: 0.5rem; */
-/*  */
-/* } */
 .seccionPrincipal {
   width: 100%;
   font-family: "Gulzar", serif;
@@ -127,8 +125,6 @@ main {
 }
 
 .seccionPrincipal__imagen {
-  border: 10px solid;
-  border-color: #eeeeee;
   width: 100%;
 }
 
@@ -510,7 +506,6 @@ main {
   grid-area: img6;
 }
 
-/* PROBANDO GRILLA ENCUENTROS */
 .gridEncuentros {
   margin: 5rem;
   height: 700px;
@@ -678,7 +673,7 @@ h3 {
   text-align: right;
 }
 
-/* probando1024 */
+/* 1024px */
 @media screen and (max-width: 1224px) {
   .seccionRedesSociales__fotos--oculto1 {
     display: none;
@@ -779,6 +774,9 @@ h3 {
   }
   .seccionParrafo__encuentros {
     margin-top: 1.5rem;
+  }
+  .seccionPacks {
+    padding-top: 3rem;
   }
 }
 

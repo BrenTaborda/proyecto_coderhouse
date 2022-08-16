@@ -1,4 +1,4 @@
-/* probando1024 */
+/* 1024px */
 @media screen and (max-width:1224px) {
 
     .seccionRedesSociales__fotos--oculto1 {
@@ -44,7 +44,6 @@
 
 @media screen and (max-width:768px){
     .seccionPacks {
-        // background-color: red;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -99,7 +98,6 @@
     
     }
     .formulario {
-
         margin: 0 3rem 3rem;}
     
 
@@ -121,6 +119,10 @@
     }
     .seccionParrafo__encuentros {
         margin-top: 1.5rem;
+    }
+
+    .seccionPacks {
+        padding-top: 3rem;
     }
 
 }
@@ -209,10 +211,6 @@
             text-align: center;
         }
         
-        // &__musica {
-        //     display: none;
-        //     margin-left: 1rem;
-        // }
     }
 
 
@@ -370,7 +368,6 @@
     }
 
     .seccionPacks {
-        // background-color: red;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

@@ -16,8 +16,6 @@
     }
     
     &__imagen {
-    border: 10px solid;
-    border-color: rgb(238, 238, 238);
     width: 100%;
     }
 
@@ -37,9 +35,6 @@
         margin: 3rem;   
     }
     
-    // &__musica {
-    //     margin-left: 3rem;
-    // }
     
     &__parrafo--bold{
         color: #796f6f;
@@ -112,7 +107,6 @@
 }
 
 .seccionPacks {
-    // background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
