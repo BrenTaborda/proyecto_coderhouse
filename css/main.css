@@ -106,6 +106,11 @@ main {
   display: none;
 }
 
+.nav__item--activo {
+  color: #799591;
+  text-decoration: underline;
+}
+
 .seccionPrincipal {
   width: 100%;
   font-family: "Gulzar", serif;
@@ -488,14 +493,11 @@ main {
 .gridAudios__hijo--5 {
   grid-area: txt1;
   font-family: "Gulzar", serif;
-  font-size: 25px;
-  line-height: 30px;
   color: #ffffff;
   text-align: center;
   display: flex;
   align-items: center;
-  padding: 0.5rem;
-  background-color: #87757E;
+  background-color: #799591;
 }
 
 .gridAudios__hijo--6 {
@@ -504,6 +506,13 @@ main {
 
 .gridAudios__hijo--7 {
   grid-area: img6;
+}
+
+.gridAudios h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  padding: 1rem;
 }
 
 .gridEncuentros {
@@ -819,6 +828,10 @@ h3 {
   }
   .nav__item--oculto {
     display: block;
+  }
+  .nav__item--activo {
+    color: #343434;
+    text-decoration: none;
   }
   .seccionPrincipal {
     width: 100%;

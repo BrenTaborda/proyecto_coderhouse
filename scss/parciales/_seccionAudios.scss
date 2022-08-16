@@ -48,14 +48,11 @@
     &__hijo--5 {
         grid-area: txt1;
         font-family: $tipografia-titulos;
-        font-size: 25px;
-        line-height: 30px;
         color: #ffffff;
         text-align: center;
         display: flex;    
         align-items: center;
-        padding: 0.5rem;
-        background-color: $colorDestacado;
+        background-color: #799591;
     }
     
     &__hijo--6 {
@@ -64,5 +61,12 @@
     
     &__hijo--7 {
         grid-area: img6;
+    }
+
+    & h3{
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0;
+        padding: 1rem;
     }
 }
