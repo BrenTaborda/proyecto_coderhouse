@@ -77,6 +77,9 @@
         &__derecha {
             width: $ancho;
         }
+        &__parrafo{
+            margin-bottom: 0rem;
+        }
     }
 
     .seccionPrincipalBis {
@@ -123,6 +126,10 @@
 
     .seccionPacks {
         padding-top: 3rem;
+    }
+
+    .gridEncuentros {
+        margin: 2rem;
     }
 
 }
@@ -207,6 +214,10 @@
             line-height: 30px;
             text-align: center;
         }
+
+        &__titular--izq {
+            margin-top: 0%;
+        }
         
         &__parrafo {
             color: $colorOscuro;
@@ -214,6 +225,7 @@
             font-size: 16px;
             font-family: $tipografia-textos;
             text-align: center;
+            margin-bottom: 3rem;
         }
         
     }
@@ -291,6 +303,7 @@
         }
     
     }
+
     
     .seccionParrafo {
         background-color: #87757E;
@@ -363,7 +376,8 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 8px;
-        grid-row-gap: 8px;
+        grid-row-gap: 13px;
+        margin: 2rem;
     
         grid-template-areas: 
         "img1"
@@ -413,6 +427,9 @@
         padding: 1rem;
         padding-right: 2rem;
         padding-left: 2rem;
+        &__iconosRedesSociales{
+            margin-bottom: 0.75rem;
+        }
     }
 
     .cardsBootstrap__elementos {
@@ -438,6 +455,10 @@
             font-size: 20px;
             margin-bottom: 1rem;
         }
+    }
+
+    .parrafoOculto {
+        display: none;
     }
     
 

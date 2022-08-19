@@ -69,6 +69,7 @@ main {
   z-index: 1000;
   font-family: "Gulzar", serif;
   line-height: 19px;
+  font-size: 17px;
   color: #343434;
   text-decoration: none;
   display: flex;
@@ -98,7 +99,7 @@ main {
 }
 
 .nav__item {
-  margin-left: 0.75rem;
+  margin-left: 1rem;
   padding: 0;
 }
 
@@ -570,6 +571,7 @@ main {
 
 .row {
   width: 100%;
+  margin: 0 auto;
 }
 
 .col-12 {
@@ -748,6 +750,9 @@ h3 {
   .seccionPrincipal__derecha {
     width: 100%;
   }
+  .seccionPrincipal__parrafo {
+    margin-bottom: 0rem;
+  }
   .seccionPrincipalBis {
     width: 100%;
     font-family: "Gulzar", serif;
@@ -786,6 +791,9 @@ h3 {
   }
   .seccionPacks {
     padding-top: 3rem;
+  }
+  .gridEncuentros {
+    margin: 2rem;
   }
 }
 
@@ -854,12 +862,16 @@ h3 {
     line-height: 30px;
     text-align: center;
   }
+  .seccionPrincipal__titular--izq {
+    margin-top: 0%;
+  }
   .seccionPrincipal__parrafo {
     color: #343434;
     line-height: 20px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    margin-bottom: 3rem;
   }
   .seccionRedesSociales {
     background-color: #87757E;
@@ -978,7 +990,8 @@ h3 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 8px;
-    grid-row-gap: 8px;
+    grid-row-gap: 13px;
+    margin: 2rem;
     grid-template-areas: "img1" "img2" "img3" "img4";
   }
   .seccionPacks {
@@ -1017,6 +1030,9 @@ h3 {
     padding-right: 2rem;
     padding-left: 2rem;
   }
+  .footer__iconosRedesSociales {
+    margin-bottom: 0.75rem;
+  }
   .cardsBootstrap__elementos {
     display: flex;
     flex-direction: column;
@@ -1037,5 +1053,8 @@ h3 {
   .SeccionTestimonios h3 {
     font-size: 20px;
     margin-bottom: 1rem;
+  }
+  .parrafoOculto {
+    display: none;
   }
 }
